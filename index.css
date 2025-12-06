@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    border: 0;
+    box-sizing: border-box;
+}
+:root{
+    --background: linear-gradient(to right, #FFF5AE, #F2A8E5);
+    --button:#FF7171;
+    --text-dark:#000000;
+    --text-lite:#ffffff;
+}
+body{
+    background: var(--background);
+    font-family:'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    background: var(--button);
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding:0.75em;
+    margin: 0 3em;;
+}
+nav li{
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+    letter-spacing: 0.2em;
+}
+nav a{
+    text-decoration: none;
+    color: var(--text);
+}
+nav img{
+    height:30px;
+    margin-left: -4em;
+}
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50vw;
+    gap:3em;
+}
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    gap:5em;
+}
+.hero-image{
+    background: url("/pexels-robin-stickel-70497.jpg");
+    height: 92vh;
+    width: 50vw;
+    background-size: cover;
+    background-position: 75%;
+}
+h1{
+    font-size: 3em;
+    letter-spacing: 0.1em;
+}
+p{
+    width:33em;
+    font-variant: normal;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+}
+button{
+    padding: 1em;
+    width: 15em;
+    background: var(--button);
+    color: var(--text-lite);
+    cursor: pointer;
+}
+.posters{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two-img img{
+    height: 15em;
+    width: 15em;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.poster-left{
+    display: flex;
+}
+.one{
+    height: 30.5em;
+    width: 20em;
+    margin: 10px;
+}
+.poster-right{
+    height:15em;
+    width:25em;
+    background: var(--button);
+    display: flex;
+    flex-direction: column;
+    gap:0.5em;
+    padding: 1em;
+}
+h2{
+    font-size: 3em;
+    letter-spacing: 2px;;
+}
+.poster-right img{
+    height: 25px;
+    width: 30px;
+}
+.oneline{
+    width: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px ;
+}
