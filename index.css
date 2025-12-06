@@ -88,6 +88,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap:3em;
 }
 .two-img img{
     height: 15em;
