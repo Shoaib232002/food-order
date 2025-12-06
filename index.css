@@ -59,7 +59,7 @@ nav img{
     gap:5em;
 }
 .hero-image{
-    background: url("/pexels-robin-stickel-70497.jpg");
+    background: url("https://github.com/Shoaib232002/food-order/blob/main/pexels-robin-stickel-70497.jpg?raw=true");
     height: 92vh;
     width: 50vw;
     background-size: cover;
